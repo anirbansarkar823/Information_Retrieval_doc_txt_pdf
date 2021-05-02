@@ -4,15 +4,19 @@ The work was primarily a part of our DRDO internship. We have applied the TF-IDF
 
 
 
-## Database name: jdbc:mysql
+#### Database name: 
+        jdbc- mysql
 
-## Tables:
+#### Tables:
       1. relevant_words( doc_name, words, frequency, total_words) (varchar2, varchar2, varchar2, INT)
 sample_set_files: common folder for all documents.
 
-## data sturctures used:
+
+#### Data Sturctures used:
        Arraylist, HashMap, Arrays, StringBuilders
 
+
+#### Programming files
 
 ** delete_all_from_database.jsp:
 - deletes all rows of table 'relevant_words_docs' using doc_id; doc_id being supplied to prepareStatement using a for loop running from i=1 to i=66

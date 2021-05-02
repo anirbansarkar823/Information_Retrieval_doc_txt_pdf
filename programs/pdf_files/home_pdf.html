@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv = "Content-Type" Content = "text/html;charset=UTF-8">
+<title>pdf search</title>
+
+</head>
+<body>
+
+<script>
+    
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+    
+</script>
+	
+<form method ="POST" action ="tfidf_pdf.jsp">
+<center><h2 style = "color:brown">INFORMATION RETRIEVAL </h2></center>
+
+<center><input type ="text" name ="Query" placeholder ="Enter your Query" size = "40" /></center><br/>
+<center><input type= "submit" value="search"/><br />
+</center>
+</form>
+</body>
+</html>
+

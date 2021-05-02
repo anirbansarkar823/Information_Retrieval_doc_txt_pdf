@@ -1,0 +1,100 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>DRDO CBIR</title>
+<meta charset="utf-8">
+<meta name="viewport" context="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+body
+{
+	background-image:url(DRDO-logo.png);
+	background-repeat:no-repeat;
+	background-position:50% 40px;
+	background-color:#E8F8F5;
+}
+
+h3
+{
+	text-align: center;
+	color:red;
+}
+
+input[type=text]
+{
+	width: 70%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('searchicon.png');
+
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+	width: 70%;
+}
+
+.but
+{
+    background-color: white;
+    border: 1px solid #717D7E;
+    color: #7F8C8D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	font-weight: bold;
+}
+
+.but:hover{
+	background-color: #e7e7e7; 
+    color: black; 
+    border: 1px solid black;
+	font-weight: bold;
+
+	}
+</style>
+
+</head>
+<body>
+
+<script>
+    
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+    
+</script>
+
+	<div class="container-fluid">
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<h3>DRDO CBIR</h3>
+	
+		<form method ="POST" action ="tfidf_final.jsp">
+		<center><br/><input type="text" name="Query" placeholder="Enter your Search.">
+		<center><br/><input type= "submit" class = "but" value="Search" /><br/>
+		</form>
+	</div>
+	
+</body>
+
+</html>

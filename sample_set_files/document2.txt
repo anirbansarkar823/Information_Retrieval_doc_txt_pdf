@@ -1,0 +1,12 @@
+Variable conductivity
+Semiconductors in their natural state are poor conductors because a current requires the flow of electrons, and semiconductors have their valence bands filled, preventing the entry flow of new electrons. There are several developed techniques that allow semiconducting materials to behave like conducting materials, such as doping or gating. These modifications have two outcomes: n-type and p-type. These refer to the excess or shortage of electrons, respectively. An unbalanced number of electrons would cause a current to flow through the material.[4]
+Heterojunctions
+Heterojunctions occur when two differently doped semiconducting materials are joined together. For example, a configuration could consist of p-doped and n-dopedgermanium. This results in an exchange of electrons and holes between the differently doped semiconducting materials. The n-doped germanium would have an excess of electrons, and the p-doped germanium would have an excess of holes. The transfer occurs until equilibrium is reached by a process called recombination, which causes the migrating electrons from the n-type to come in contact with the migrating holes from the p-type. A product of this process is charged ions, which result in an electric field.[1][4]
+Excited electrons
+A difference in electric potential on a semiconducting material would cause it to leave thermal equilibrium and create a non-equilibrium situation. This introduces electrons and holes to the system, which interact via a process called ambipolar diffusion. Whenever thermal equilibrium is disturbed in a semiconducting material, the amount of holes and electrons changes. Such disruptions can occur as a result of a temperature difference or photons, which can enter the system and create electrons and holes. The process that creates and annihilates electrons and holes are called generation and recombination.[4]
+Light emission
+In certain semiconductors, excited electrons can relax by emitting light instead of producing heat.[5] These semiconductors are used in the construction of light-emitting diodesand fluorescent quantum dots.
+Thermal energy conversion
+Semiconductors have large thermoelectric power factors making them useful in thermoelectric generators, as well as high thermoelectric figures of merit making them useful in thermoelectric coolers.[6]
+Materials[edit]
+

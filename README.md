@@ -42,7 +42,7 @@ sample_set_files: common folder for all documents.
 
 
 - inverted_index.jsp: this program is logically same as idf_table.jsp; but here instead of printing a table we print for each relevant word w_i from query
-                       doc_name_j (frequency of occurrance of ith relevant word).... 
+                       doc_name_j (frequency of occurrence of ith relevant word).... 
                        i.e., word = all documents in which the word occurred with corresponding frequency
 
 
